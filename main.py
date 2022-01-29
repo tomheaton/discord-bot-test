@@ -33,7 +33,7 @@ async def on_ready():
 def run_messages():
     print("sending messages")
     r = requests.post(
-        url="https://discord.com/api/webhooks/896103653184765962/NreptzbkqRwv2a1UcKwGvpKlmZ5MUXLl9ctftXUp2Mx6GsRmWLhIRUqi8C7yB8kBn-z7",
+        url="url here",
         json={"content": "hello gonk you are very cool", "tts": True}
     )
 
